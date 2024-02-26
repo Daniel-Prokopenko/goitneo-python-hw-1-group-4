@@ -53,6 +53,7 @@ def show_all(args, contacts):
         )
     return "No contacts."
 
+
 def delete_contact(args, contacts):
     """Deletes contact if it is in contact list"""
     if len(args) != 1:
