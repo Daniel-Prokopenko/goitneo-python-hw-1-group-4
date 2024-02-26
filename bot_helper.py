@@ -86,6 +86,8 @@ def main():
             print(change_contact(args, contacts))
         elif command == "phone":
             print(phone(args, contacts))
+        elif command == "delete":
+            print(delete_contact(args, contacts))
         else:
             print("Invalid command.")
 
